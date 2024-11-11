@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export -o docs",
-    "deploy": "npm run build && npm run export"
+    "deploy": "npm run build"
   },
   "dependencies": {
     "@apollo/server": "^4.10.2",
